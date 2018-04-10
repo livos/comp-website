@@ -1,0 +1,94 @@
+$icon-size:55px;
+$icon-color:#000;
+$bg-color:#95D279;
+$header-font-color:#fff;
+$showcase-font-color:#fff;
+$body-font-color:#fff;
+$primary-color:#40862D;
+$secondary-color:#45CC5E;
+
+@font-face {
+  font-family: 'Pacifico';
+   src: url('../fonts/Pacifico-Regular.ttf') format('truetype')
+}
+
+//----- COMMON ------
+.home-brand {
+  font-size: 1.6em;
+}
+
+.navbar-brand, .home-brand, .footer-brand {
+  font-family: Pacifico;
+}
+
+//----- HEADER -----
+.navbar {
+  border-bottom:$primary-color 3px solid;
+  opacity: 0.8;
+}
+
+//------ SHOWCASE ------
+#showcase {
+  color:$showcase-font-color;
+  background-color: $bg-color;
+  min-height: 700px;
+
+  .home-inner {
+    padding-top:5em;
+  }
+
+  #headingHelp {
+    cursor: pointer;
+  }
+}
+
+//------ HOME SECTION ----
+#home-icons {
+  background-color: #fff;
+
+  .fa {
+    font-size: $icon-size;
+    color: $icon-color;
+  }
+}
+
+//------ INFO SECTION ----
+#info {
+  background-color: #E2F2DA;
+
+  .fa {
+    font-size: $icon-size;
+    color: #29C656;
+  }
+
+  font-size: 25px;
+}
+
+//------ FOOTER --------
+#main-footer {
+  color:$body-font-color;
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+  #showcase h1 {
+    font-size: 2.2em;
+  }
+
+  #info {
+    font-size: 1em;
+
+    .fa {
+      font-size: 1.5em;
+    }
+  }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+}

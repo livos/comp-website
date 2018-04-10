@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Pacifico';
+  src: url("../fonts/Pacifico-Regular.ttf") format("truetype"); }
+
+.home-brand {
+  font-size: 1.6em; }
+
+.navbar-brand, .home-brand, .footer-brand {
+  font-family: Pacifico; }
+
+.navbar {
+  border-bottom: #40862D 3px solid;
+  opacity: 0.8; }
+
+#showcase {
+  color: #fff;
+  background-color: #95D279;
+  min-height: 700px; }
+  #showcase .home-inner {
+    padding-top: 5em; }
+  #showcase #headingHelp {
+    cursor: pointer; }
+
+#home-icons {
+  background-color: #fff; }
+  #home-icons .fa {
+    font-size: 55px;
+    color: #000; }
+
+#info {
+  background-color: #E2F2DA;
+  font-size: 25px; }
+  #info .fa {
+    font-size: 55px;
+    color: #29C656; }
+
+#main-footer {
+  color: #fff; }
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+  #showcase h1 {
+    font-size: 2.2em; }
+  #info {
+    font-size: 1em; }
+    #info .fa {
+      font-size: 1.5em; } }
+
+/* Small devices (tablets, 768px and up) */
+/* tablets/desktops and up ----------- */
+/* large desktops and up ----------- */
